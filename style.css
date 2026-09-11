@@ -3,6 +3,12 @@ body {
   font: Garamond;
 }
 
+.h2h {
+  font-weight: 900;
+  color: #000;
+  font-size: 40px;
+}
+
 .heading {
   border: 1px solid black;
 }
@@ -33,6 +39,75 @@ body {
   transition: 0.3s;
 }
 
+.btn-neon {
+  background: linear-gradient(135deg, #7A00FF, #00E5FF);
+  color: #0A0A1A;
+
+  border: none;
+  padding: 14px 30px;
+  margin-bottom: 30px;
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  /* Cuts off two corners */
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-neon:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    5px 5px 0 #7A00FF,
+    -5px -5px 0 #00E5FF;
+
+  color: #F2F5FF;
+}
+
+.btn-cosmic {
+  background-color: #101D42;
+  color: #EAF2FF;
+
+  border: none;
+  border-left: 6px solid #FF5C00;
+
+  padding: 14px 30px;
+  margin-bottom: 30px;
+
+  font-family: 'Oxanium', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  box-shadow: 6px 6px 0 #070A0F;
+}
+
+.btn-cosmic:hover {
+  background-color: #FF5C00;
+  color: #070A0F;
+
+  border-left: 6px solid #EAF2FF;
+
+  transform: translateX(6px);
+
+  box-shadow: -6px 6px 0 #101D42;
+}
+
 .heading-neon {
   margin: 10px;
   text-align: left;
@@ -61,6 +136,7 @@ h3 {
   width: 400px;
   height: 150px;
   border: 1px solid black;
+  margin-bottom: 90px;
 }
 
 .color {
@@ -94,6 +170,8 @@ h3 {
   display: flex;
   width: 400px;
   height: 150px;
+  border: 1px solid black;
+  margin-bottom: 90px;
 }
 
 .color {
@@ -127,6 +205,8 @@ h3 {
   display: flex;
   width: 400px;
   height: 150px;
+  border: 1px solid black;
+  margin-bottom: 90px;
 }
 
 .cc1 {
