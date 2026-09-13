@@ -58,7 +58,6 @@ body {
   color: #00FF41;
 }
 
-/* Adds > between breadcrumb items */
 .breadcrumb-matrix li + li::before {
   content: " > ";
   color: #008F11;
@@ -74,7 +73,6 @@ body {
   color: white;
   text-shadow: 0 0 8px #00FF41;
 }
-
 
 /*neon style css code */
 
