@@ -18,10 +18,11 @@ body {
   content: ">";
 }
 
-
 .heading {
   border: 1px solid black;
 }
+
+/*matrix style css code */
 
 .heading-matrix {
   margin: 10px;
@@ -48,6 +49,43 @@ body {
   box-shadow: 0 0 15px #00FF41;
   transition: 0.3s;
 }
+
+.breadcrumb-matrix {
+  background-color: #0D0208;
+  padding: 12px 20px;
+  border-left: 4px solid #00FF41;
+  font-family: 'Space Mono', monospace;
+}
+
+.breadcrumb-matrix ul {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-matrix li {
+  display: inline;
+  color: #00FF41;
+}
+
+/* Adds > between breadcrumb items */
+.breadcrumb-matrix li + li::before {
+  content: " > ";
+  color: #008F11;
+  padding: 0 8px;
+}
+
+.breadcrumb-matrix a {
+  color: #00FF41;
+  text-decoration: none;
+}
+
+.breadcrumb-matrix a:hover {
+  color: white;
+  text-shadow: 0 0 8px #00FF41;
+}
+
+
+/*neon style css code */
 
 .btn-neon {
   background: linear-gradient(135deg, #7A00FF, #00E5FF);
@@ -210,6 +248,8 @@ h3 {
 .cn4 {
   background-color: #EDF6FF;
 }
+
+/*cosmic style css code */
 
 .color-palette-cosmic {
   display: flex;
