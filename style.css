@@ -9,6 +9,16 @@ body {
   font-size: 40px;
 }
 
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li+li::before {
+  display: inline;
+  content: ">";
+}
+
+
 .heading {
   border: 1px solid black;
 }
