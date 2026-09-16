@@ -76,6 +76,44 @@ body {
 
 /*neon style css code */
 
+.breadcrumb-neon {
+  background-color: #080B18;
+  padding: 15px 25px;
+  border: 1px solid #8B5CF6;
+  border-radius: 8px;
+}
+
+.breadcrumb-neon ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-neon li {
+  display: inline;
+  color: #EDF6FF;
+}
+
+/* Adds › between breadcrumb items */
+.breadcrumb-neon li + li::before {
+  content: "›";
+  color: #8B5CF6;
+  padding: 0 12px;
+}
+
+.breadcrumb-neon a {
+  color: #00E5FF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.breadcrumb-neon a:hover {
+  color: #EDF6FF;
+  text-shadow:
+    0 0 5px #00E5FF,
+    0 0 10px #00E5FF;
+}
+
 .btn-neon {
   background: linear-gradient(135deg, #7A00FF, #00E5FF);
   color: #0A0A1A;
