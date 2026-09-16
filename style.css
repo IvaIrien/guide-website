@@ -18,6 +18,11 @@ body {
   padding: 16px 25px;
 }
 
+.palette-menu .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* breadcrumb menu top of main page */
 
 .palette-menu ul {
