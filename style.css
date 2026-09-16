@@ -13,6 +13,40 @@ body {
   border: 1px solid black;
 }
 
+.palette-menu {
+  background-color: black;
+  padding: 16px 25px;
+}
+
+/* breadcrumb menu top of main page */
+
+.palette-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.palette-menu li {
+  display: inline;
+}
+
+/* Breadcrumb separator */
+.palette-menu li + li::before {
+  content: "›";
+  color: white;
+  padding: 0 15px;
+}
+
+.palette-menu a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.palette-menu a:hover {
+  text-decoration: underline;
+}
+
 /*matrix style css code */
 
 .heading-matrix {
