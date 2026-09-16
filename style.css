@@ -151,6 +151,47 @@ body {
   color: #F2F5FF;
 }
 
+/* comic starts here */
+
+.breadcrumb-cosmic {
+  background: linear-gradient(135deg, #070A0F, #101D42);
+  padding: 15px 25px;
+  border-left: 4px solid #FF5C00;
+  border-radius: 6px;
+}
+
+.breadcrumb-cosmic ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-cosmic li {
+  display: inline;
+  color: #EAF2FF;
+}
+
+/* Adds ✦ between breadcrumb items */
+.breadcrumb-cosmic li + li::before {
+  content: "✦";
+  color: #FF5C00;
+  padding: 0 12px;
+}
+
+.breadcrumb-cosmic a {
+  color: #EAF2FF;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.breadcrumb-cosmic a:hover {
+  color: #FF5C00;
+  text-shadow:
+    0 0 5px #FF5C00,
+    0 0 12px #FF5C00;
+}
+
 .btn-cosmic {
   background-color: #101D42;
   color: #EAF2FF;
